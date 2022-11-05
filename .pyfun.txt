@@ -1,0 +1,157 @@
+
+
+FUNCTIONS MCQ
+
+The quiz contains 13 Questions. Solve 8 correct to pass the test.
+You will have to read all the given answers and click over the correct answer.
+ 
+1. What is the output of the following function call
+def fun1(name, age=20):
+    print(name, age)
+
+fun1('Emma', 25)
+ Emma 25
+ Emma 20
+
+ans  Emma 25
+
+
+2. What is the output of the following display() function call
+def display(**kwargs):
+    for i in kwargs:
+        print(i)
+
+display(emp="Kelly", salary=9000)
+option1. TypeError
+option2.  Kelly
+     	      9000
+ 
+option3. (’emp’, ‘Kelly’)
+    	    (‘salary’, 9000)
+option4. emp
+   	   salary
+
+ans emp
+   	   salary
+
+
+3. Select which is true for Python function
+ A Python function can return only a single value
+ A function can take an unlimited number of arguments.
+ A Python function can return multiple values
+ Python function doesn’t return anything unless and until you add a return statement
+ansA function can take an unlimited number of arguments.
+
+
+
+4. What is the output of the following code?
+def outer_fun(a, b):
+    def inner_fun(c, d):
+        return c + d
+    return inner_fun(a, b)
+
+res = outer_fun(5, 10)
+print(res)
+ 15
+ Syntax Error
+ (5, 10)
+
+ ans15
+
+5. What is the output of the add() function call
+def add(a, b):
+    return a+5, b+5
+
+result = add(3, 2)
+print(result)
+ 15
+ 8
+ (8, 7)
+ Syntax Error
+
+ ans(8, 7)
+
+
+6. What is the output of the following function call
+def outer_fun(a, b):
+    def inner_fun(c, d):
+        return c + d
+
+    return inner_fun(a, b)
+    return a
+
+result = outer_fun(5, 10)
+print(result)
+ 5
+ 15
+ (15, 5)
+ Syntax Error
+
+ans15
+
+7. What is the output of the following display_person() function call
+def display_person(*args):
+    for i in args:
+        print(i)
+
+display_person(name="Emma", age="25")
+ 
+Option 1 TypeError
+Option 2 Emma
+      25
+Option 3 name
+               age
+
+
+ansTypeError
+
+
+8. Choose the correct function declaration of  fun1() so that we can execute the following function call successfully
+fun1(25, 75, 55)
+fun1(10, 20)
+ def fun1(**kwargs)
+ No, it is not possible in Python
+ def fun1(args*)
+ def fun1(*data)
+
+ansdef fun1(*data)
+
+9. Python function always returns a value
+ False
+ True
+
+ ansTrue
+
+
+10. Given the following function fun1() Please select all the correct function calls
+def fun1(name, age):
+    print(name, age)
+ 
+1.fun1("Emma", age=23)
+  2. fun1(age =23, name="Emma")
+ fun1(name="Emma", 23)
+ fun1(age =23, "Emma")
+
+
+ ansfun1("Emma", age=23)
+
+11. What is the output of the following function call
+def fun1(num):
+    return num + 25
+
+fun1(5)
+print(num)
+ 25
+ 5
+ NameError
+
+ansNameError
+
+12. Select which true for Python function
+ A function is a code block that only executes when called and always returns a value.
+ A function only executes when it is called and we can reuse it in a program
+ Python doesn’t support nested function
+
+
+ansA function is a code block that only executes when called and always returns a value.
+ A function only executes when it is called and we can reuse it in a program
